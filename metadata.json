@@ -1,0 +1,10 @@
+{
+  "name": "Remix: ProspectAI",
+  "description": "AI-powered prospecting tool for AI Digital sellers to generate qualified lead lists from natural language requests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "AI Intent Parsing",
+    "Lead Enrichment",
+    "CSV Export"
+  ]
+}

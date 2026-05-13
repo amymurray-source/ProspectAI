@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-barlow: "Barlow", sans-serif;
+  --color-brand-blue: #0009DC;
+  --color-brand-charcoal: #080808;
+  --color-brand-lime: #AEF33E;
+  --color-brand-pink: #FF7CF5;
+  --color-brand-silver: #F9F9F9;
+}
+
+:root {
+  --selection-bg: #0009DC;
+  --selection-text: #ffffff;
+}
+
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-text);
+}
